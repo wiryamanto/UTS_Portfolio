@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ragil Wiryamanto</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <!-- nav-bar  -->
+  <section id="nav-bar" class="container">
+    <header class="nav-bar">
+      <div class="brand"><a href="#hero"><h1>Portfolio</h1></a></div>
+      <div class="nav-list">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#my project">My Project</a></li>
+        </ul>
+      </div>
+    </header>
+  </section>
+  <!-- End nav-bar  -->
+
+  <!-- Hero Section  -->
+  <section id="hero" class="hero container">
+    <div class="hero-info">
+      <h1 class="hero-info-heading">Hello👋, I'm <br>Ragil Wiryamanto</h1>
+      <p class="hero-info-subheading">I am a web developer</p>
+      <a href="#" type="button" class="hero-info-button">Portfolio</a>
+    </div>
+    <div class="hero-img">
+      <img src="./asset/image.png" alt="">
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Abote section  -->
+  <section id="about" class="about container">
+    <div class="about-info">
+      <h1 class="about-info-heading">Aboute Me</h1>
+      <p class="about-desc">Hello👋, Saya Ragil Wiryamanto Saya tinggal di Kota Pemalang tepatnya di Desa Mulyoharjo, Saya sekarang sedang melanjutkan pendidikan di sebuah kampus Swasta di Tegal yaitu Politeknik Harapa Bersama.</p>
+    </div>
+    <div class="about-img">
+      <div class="about-img-wrapper">
+        <img src="./asset/imageAbout.png">
+      </div>
+    </div>
+  </section>
+  <!-- End About section  -->
+  <!-- Service Section  -->
+  <section id="my project" class="services container">
+    <div class="services-header">
+      <h1 class="services-header-heading">My Project</h1>
+      <p class="services-header-desc">Berikut beberapa project yang sudah saya pernah buat individu maupun bersama team.</p>
+    </div>
+    <div class="services-info">
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front" style="background-image: url(./asset/ReactBook.png); background-size: cover; position: relative;">
+            <i class="fa fa-palette"></i>
+            <h1 class="service-front-heading">Book Collection</h1>
+          </div>
+          <div class="service-back">
+            <h1 class="service-back-heading">Book Collection</h1>
+            <p class="service-back-desc">Book Colection merupakan salah satu project mandiri yang  Saya Buat Dengan Framwork React, Tailwind, dengan Api yang juga saya buat sendiri</p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front" style="background-image: url(./asset/PP.png); background-size: cover; position: relative;">
+
+            <h1 class="service-front-heading">Plugin Web</h1>
+          </div>
+          <div class="service-back">
+            <h1 class="service-back-heading">PLugin Web</h1>
+            <p class="service-back-desc">Pada Project Plugin Web merupakan salah satu project team pertama saya dengan Framework React, Tailwind.</p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front" style="background-image: url(./asset/fcBootcamp.png); background-size: cover; position: relative;">
+            <i class="fa fa-building"></i>
+            <h1 class="service-front-heading">JobSkuy</h1>
+          </div>
+          <div class="service-back">
+            <h1 class="service-back-heading">JobSkuy</h1>
+            <p class="service-back-desc">Website ini saya buat ketika saya sedang mengikuti Bootcamp di Sanbercode dengan mengambil kelas karyawan dan memilih kelas React</p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+  <!-- End Service Section  -->
+
+  <!-- Footer section  -->
+  <footer id="footer" class="footer container">
+    <ul class="social-icons">
+      <li><a href="https://www.instagram.com/wiryamanto/" target="_blank"><img src="./asset/instagram.png" alt=""></a></li>
+      <li><a href="https://github.com/wiryamanto" target="_blank"><img src="./asset/github.png" alt=""></a></li>
+    </ul>
+    <div class="footer-contact">
+      <h1 class="footer-contact-heading">Contact With Me</h1>
+      <p class="footer-contact-info">Email: wiryamantoragil@gamil.com</p>
+      <p class="footer-contact-info">Telfon: 08********</p>
+    </div>
+  </footer>
+  <!-- End Footer section  -->
+  <script src="./app.js"></script>
+</body>
+</html>
